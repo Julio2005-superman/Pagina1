@@ -1,0 +1,44 @@
+/* Selector Universal */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Selector Body*/
+body{
+    background: url('imagenes/degradado.jpg');
+    background-repeat: no-repeat; /* Es para que no se repita la imagen de fondo */
+    background-size: cover; /* Es para que se vea la imagen en todo el fondo */
+    color: white; /* Color de Letra */
+}
+#contenedor{
+    width: 90%; /* Ancho del contenedor */
+    margin: 10px auto;
+}
+h1, h2{
+    color: black;
+    text-align: center;
+    font-family: Algerian;
+    font-size: 1.5em;
+    padding: 10px 0px;
+}
+h2{
+    font-size: 1em;
+    color: orange;
+}
+p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color: wheat;
+    padding: 20px;
+    border: 1px black solid;
+    border-radius: 20px;
+    border-top-right-radius: 20px;
+}
+p.segundo{
+    color: green;
+    /*border-top: 1px black solid;
+    border-bottom: 1px silver solid;*/
+    border: 1 px 0px;
+
+}
